@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 
-//import Button from '../../components/UI/Button/Button';
+import classes from './LandingPage.module.css';
 import NavBar from '../../components/NavBar/NavBar';
-//import Aux from '../../hoc/Auxilliary';
+import Footer from '../../components/Footer/Footer';
+import LandingPageCards from '../../components/UI/Cards/LandingPageCards/LandingPageCards';
 
 class LandingPage extends Component {
   buttonClickedHandler = () => {
@@ -13,6 +14,11 @@ class LandingPage extends Component {
     return (
       <div>
         <NavBar />
+        <main className={classes.main}>
+          <h1 className={classes.header}>Invigulus Management Portal</h1>
+          <LandingPageCards>Manage Organizations</LandingPageCards>
+        </main>
+        <Footer />
       </div>
     );
   }
