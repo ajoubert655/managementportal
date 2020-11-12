@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
-import Button from '../../components/UI/Button/Button';
+//import Button from '../../components/UI/Button/Button';
+import NavBar from '../../components/NavBar/NavBar';
+//import Aux from '../../hoc/Auxilliary';
 
 class LandingPage extends Component {
   buttonClickedHandler = () => {
@@ -9,9 +11,9 @@ class LandingPage extends Component {
 
   render () {
     return (
-      <Button
-        clicked={this.buttonClickedHandler}
-      />
+      <div>
+        <NavBar />
+      </div>
     );
   }
 }
