@@ -8,7 +8,7 @@ const button = (props) => {
     className={classes.Button}
     onClick={props.clicked}
     >
-    Test Button
+    Log in
     </button>
   );
 }
