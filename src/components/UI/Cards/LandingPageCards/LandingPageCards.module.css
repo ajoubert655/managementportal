@@ -1,0 +1,18 @@
+.landingPageCards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+a {
+  color: #3cB650;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:#3cB650; 
+   cursor:pointer;  
+}

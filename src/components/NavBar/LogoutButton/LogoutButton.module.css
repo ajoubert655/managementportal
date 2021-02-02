@@ -1,0 +1,21 @@
+.logoutButton {
+  -webkit-text-decoration: none;
+    text-decoration: none;
+  font-size: 110%;
+  color: #3cb650;
+  font-family: 'Lato', sans-serif;
+  border:none;
+  background-color: #f2f2f2;
+  margin: .5rem 1rem .5rem .25rem;
+  height: 2.5rem;
+  border: 1px solid #f2f2f2;
+  padding: 0 1rem;
+  border-radius: 7px;
+  outline: none;
+}
+
+.logoutButton:hover,
+.logoutButton:active,
+.logoutButton:focus {
+  outline: none;
+}

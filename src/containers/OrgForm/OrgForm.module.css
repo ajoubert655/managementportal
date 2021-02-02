@@ -1,0 +1,256 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    color: #3cB650 ;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    background-color: #f2f2f2;
+}
+
+.header {
+    color: #3cB650;
+    padding: 3rem 0 2rem 0;
+}
+
+.wrapper {
+    padding: 5px 20px;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.combobox {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.wrapper fieldset {
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    padding: 20px;
+    list-style-type: none;
+    clear: left;
+    width: 60%;
+    margin: 0 auto 3rem auto;
+    border: 3;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(221, 218, 218);
+    justify-content: space-between;
+} 
+
+
+.RadioButton {
+	width: 25px;
+	height: 25px;
+	border: 2px solid #3cB650;
+	border-radius: 50%;
+	margin-left: 20px;
+	display: flex;
+	justify-content:center;
+    align-items:center;
+}
+
+.RadioButton .checkmark {
+	width: calc(100% - 6px);
+	height: calc(100% - 6px);
+	border-radius: 50%;
+	background-color: #3cB650;
+	display: inline-block;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+.RadioButton input{
+	display: none;
+}
+
+/*The following styling is for the on/off slider on the form */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #3cB650;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #3cB650;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+.RadioButton input:checked + .checkmark {
+	opacity: 1;
+}
+
+/*The following code helps to adjust the positioning of the form elements and is assigned to the table elements (which structure the form).*/
+
+table {
+  width: 100%;
+}
+
+.cell1 {
+  width:40%;
+}
+
+.cell2 {
+    width:60%;
+}
+
+.cell3 {
+    width:40%;
+}
+
+.cell4 {
+    width:60%;
+}
+
+.cell5 {
+    width:5%;
+  }
+  
+.cell6 {
+    width:95%;
+}
+
+.cell7 {
+    width:52%;
+}
+
+.cell8 {
+    width:48%;
+}
+
+.cell9 {
+    width:30%;
+}
+
+.cell10 {
+    width: 25%;
+}
+
+.cell11 {
+    width: 25%;
+}
+
+.cell12 {
+ width: 5%;
+}
+
+.cell13 {
+    width: 40%;
+}
+
+.cell14 {
+    width:27%;
+}
+
+.cell15 {
+    width:10%;
+}
+
+.cell16 {
+    width:30%;
+}
+
+/* The following code is for the custom alert window */
+
+.dialogoverlay {
+  display: none;
+  opacity: .8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #FFF;
+  width: 100%;
+  z-index: 10;
+  padding: 20px;
+}
+
+.dialogbox{
+  display: none;
+  z-index: 10;
+  position: fixed;
+  background: #e5e5e5;
+  border-radius: 7px;
+  width: 550px;
+  padding: 20px;
+}
+
+.dialoghead {
+  background:  #e5e5e5;
+  font-size:19px;
+  padding: 10px;
+  color: black;
+}
+
+.dialogbody {
+  background: #e5e5e5;
+  padding: 20px;
+  color: #3cB650;
+}
+
+.dialogfoot {
+  background: #e5e5e5; 
+  padding: 10px;
+  text-align: right;
+}
+
+.alertbutton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:30px;
+  height: 2rem;
+}
+
+

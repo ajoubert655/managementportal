@@ -1,0 +1,21 @@
+.card {
+  background-color: #fff;
+  /* border: 1px solid #848484; */
+  border-radius: 30px;
+  margin: 4rem;
+  height: 15rem;
+  width: 15rem; 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.text {
+  font-size: 120%;
+  font-weight: 600;
+  color: #595959;
+  font-family: 'Lato', sans-serif;
+}
+
+.icon {
+  font-size: 300%;
+  margin: 3.5rem 0 1rem 0;
+}

@@ -1,0 +1,46 @@
+.toggler {
+    position: relative;
+    display: block;
+    background-color: #f2f2f2;
+    color: #3cB650;
+    cursor: pointer;
+    padding: 8px;
+    width: 25%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .toggler:after {
+    content: "\02795";
+    position: absolute;
+    right: 10px;
+    font-size: 10px;
+    top: 48%;
+    transform: translateY(-50%);
+  }
+  
+  .toggler.active:after {
+    content: "\2796";
+  }
+  
+  .panel {
+    transition: 0.4s;
+    background-color: #e5e5e5;
+    overflow: hidden;
+    max-height: 0;  /*//Keep the panel hidden */
+  }
+  
+  .panel > .contentWrapper {
+    padding: 10px;
+  }
+  
+  .wrapper {
+    padding: 5px 10px;
+  }
+  
+  /* Shows the panel and adjusts the height accordingly */
+  .panel.active {
+    max-height: 100vh;
+  }

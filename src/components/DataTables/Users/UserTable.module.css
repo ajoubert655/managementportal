@@ -1,0 +1,30 @@
+.tableWrap {
+  width: 100%;
+}
+
+.toolBarWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageButton {
+  -webkit-text-decoration: none;
+          text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+  color: #191919;
+  padding-bottom: 1px;
+  border:none;
+  background: none;
+  margin: 1rem;
+}
+
+.pageNum {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.spinnerWrap{
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+}
